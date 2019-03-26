@@ -1,10 +1,10 @@
-'''Esta é uma função que calcula os N primeiros múltiplos de x,y.
+'''Esta é uma função que calcula os N primeiros múltiplos em comum de x,y.
    Aluno: Igor Torres da Costa
    DRE: 119034669
    Curso: Matemática Aplicada
    Matéria: Tópicos de Mat. Apl. A'''
 
-print('Calcule os N primeiros múltiplos de (x,y) inteiros, além do 0.')
+print('Calcule os N primeiros múltiplos em comum de (x,y) inteiros, além do 0.')
 print('')
 z=[]
 v=[]
@@ -17,16 +17,8 @@ for x in range(n+1):
         if x==0:
                 pass
         if x!=0:
-                a=x*k
+                a=x*k*j
                 z.append(a)
-                b=x*j
-                v.append(b)
 print('') 
-print('Os '+str(n)+' primeiros múltiplos de '+str(k)+' ,além do 0, são: ')
+print('Os '+str(n)+' primeiros múltiplos em comum de '+str(k)+' e '+str(j)+' ,além do 0, são: ')
 print(z)
-print('')
-print('')
-print('Os '+str(n)+' primeiros múltiplos de '+str(j)+' ,além do 0, são: ')
-print(v)
-
-      
