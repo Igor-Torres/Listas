@@ -2,10 +2,11 @@ q=0
 s=[]
 while q<1:
     print('Opções:\n')
-    print('1)Soma de dois vetores w=y+u')
-    print('2)Subtração de dois vetores w=y-u')
-    print('3)Sair do programa\n')
-    o=int(input('Escolha a sua opção: '))         
+    print('1) Soma de dois vetores W=Y+U')
+    print('2) Subtração de dois vetores W=Y-U')
+    print('3) Sair do programa\n')
+    o=int(input('Escolha a sua opção: '))
+    print('')
     if o==1:
         a=float(input('Defina a sua coordenada X do primeiro vetor que deseja somar: '))
         b=float(input('Defina a sua coordenada Y do primeiro vetor que deseja somar: '))
