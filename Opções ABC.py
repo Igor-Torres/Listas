@@ -37,5 +37,6 @@ while q<1:
         break                
     if o>3:
         print('opção invalida')
+        print('')
               
               
