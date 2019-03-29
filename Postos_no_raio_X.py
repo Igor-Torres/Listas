@@ -25,7 +25,7 @@ for i in range(n):
                 distância=((x-coordenada1)**2+(y-coordenada2)**2)**0.5       
                 if distância<a:
                        c.append('('+str(x)+','+str(y)+')')
-                       u= len(c)
+u= len(c)
 print('')
 print('Existem '+str(u)+' postos no raio de '+str(a)+' km; ') 
 print('Essas são as coordenadas dos '+str(u)+' postos que estão neste raio: ')
