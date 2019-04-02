@@ -11,14 +11,14 @@ print('')
 n=int(input('Defina as N dimensões do seu vetor A e B: '))
 print('')
 for i in range(n):
-    if i!=n:
+    if i!=n:# loop 'for' criado para N dimensões
         i+=1
         x=float(input('Defina a coordenada do seu vetor A na '+str(i)+'ª dimesão (caso o vetor não chegue até esta dimensão digite 0): '))
         y=float(input('Defina a coordenada do seu vetor B na '+str(i)+'ª dimesão (caso o vetor não chegue até esta dimensão digite 0): '))
         t=x+y
-        vetor_1.append(x)
-        vetor_2.append(y)
-        soma_vetorial.append(t)
+        vetor_1.append(x)#estética
+        vetor_2.append(y)#estética
+        soma_vetorial.append(t)#soma vetorial acrescentada a uma lista vazia
     if i==n:    
        break
 print('')

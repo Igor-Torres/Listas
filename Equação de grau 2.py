@@ -6,7 +6,7 @@
 loop=0
 while loop<10:
     
-    print ('Equação do segundo grau')
+    print ('-------Equação do segundo grau-------')
     print ('')
     print('No formato ax²+bx+c (apenas raízes reais)')
     print ('')
@@ -22,15 +22,30 @@ while loop<10:
             print(float(-b - (delta)**0.5)/(2*a))
             print('')
             print('')
+            a=float(input('Deseja calcular outra equação?\n1)Sim.\n2)Não.\n\n'))#menu de opções
+            print('')
+            if a==2:
+                print('\nPrograma encerrado.')
+                break
     if(delta==0):
             print ('')
             print("Essa é a raiz única da equação ("+str(a)+")x²+("+str(b)+")x+("+str(c)+"):")
             print(float(-b + (delta)**0.5)/(2*a))
             print('')
             print('')
+            a=float(input('Deseja calcular outra equação?\n1)Sim.\n2)Não.\n\n'))
+            print('')
+            if a==2:
+                print('\nPrograma encerrado.')
+                break
     if(delta<0):
             print ('')
             print("A equação ("+str(a)+")x²+("+str(b)+")x+("+str(c)+") não possui raízes reais.")
             print('')
             print('')
+            a=float(input('Deseja calcular outra equação?\n1)Sim.\n2)Não.\n\n'))
+            print('')
+            if a==2:
+                print('\nPrograma encerrado.')
+                break
 

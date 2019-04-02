@@ -1,6 +1,11 @@
+'''Esta função cria um meno de opções em loop, incluindo operações vetoriais e a opção 'sair do programa'
+   Aluno: Igor Torres da Costa
+   DRE: 119034669
+   Curso: Matemática Aplicada
+   Matéria: Tópicos de Mat. Apl. A'''
 q=0
 s=[]
-while q<1:
+while q<1:#para criar o loop e o menu sempre aparecer ao final de cada opção
     print('Opções:\n')
     print('1) Soma de dois vetores W=Y+U')
     print('2) Subtração de dois vetores W=Y-U')
@@ -19,7 +24,7 @@ while q<1:
         print('')
         print(s)
         print('')
-        s=[]
+        s=[]#redefinimos S como vazio para o caso do usuário escolher outra conta, ou a mesma com outros vetores
     if o==2:
         a=float(input('Defina a sua coordenada X do primeiro vetor que deseja subtrair: '))     
         b=float(input('Defina a sua coordenada Y do primeiro vetor que deseja subtrair: '))

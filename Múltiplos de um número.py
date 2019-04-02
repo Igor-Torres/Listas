@@ -17,8 +17,15 @@ for x in range(n+1):
         if x==0:
                 pass
         if x!=0:
-                a=x*k*j
+                a=x*k*j#múltiplos em comum
                 z.append(a)
 print('') 
 print('Os '+str(n)+' primeiros múltiplos em comum de '+str(k)+' e '+str(j)+' ,além do 0, são: ')
 print(z)
+a=0
+f=len(z)
+for x in range (f):
+        a+=z[x]#somamos os N primeiros múltiplos comuns
+print('')
+print('A soma de todos os '+str(n)+' primeiros múltiplos de '+str(k)+' e '+str(j)+' é: ')
+print(a)

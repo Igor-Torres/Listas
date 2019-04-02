@@ -17,15 +17,15 @@ coordenada1=float(input('Defina sua coordenada x: '))
 coordenada2=float(input('Defina sua coordenada y: '))
 print('')
 print('')
-for i in range(n):
+for i in range(n):#loop 'for' criado para N postos
         if i!=(n):
                 i+=1
                 x=float(input('Defina a coordenada x do seu posto número '+str(i)+' : '))
                 y=float(input('Defina a coordenada y do seu posto número '+str(i)+' : '))
-                distância=((x-coordenada1)**2+(y-coordenada2)**2)**0.5       
+                distância=((x-coordenada1)**2+(y-coordenada2)**2)**0.5#distância por pitágoras       
                 if distância<a:
                        c.append('('+str(x)+','+str(y)+')')
-u= len(c)
+                       u= len(c)#apenas por questões estéticas
 print('')
 print('Existem '+str(u)+' postos no raio de '+str(a)+' km; ') 
 print('Essas são as coordenadas dos '+str(u)+' postos que estão neste raio: ')
