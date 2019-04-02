@@ -28,14 +28,14 @@ print('')
 print('Os '+str(n)+' primeiros múltiplos de '+str(k)+' ,além do 0, são: ')
 print(v)
 m=0
-n=0
+t=0
 f=len(z)
 g=len(v)
 for x in range (f):
-        n+=z[x]#somamos os N primeiros múltiplos comuns
+        t+=z[x]#somamos os N primeiros múltiplos comuns
 for y in range (g):
         m+=v[y]#somamos os N primeiros múltiplos comuns
-a=m+n
+a=m+t
 print('')
-print('A soma de todos os '+str(n)+' primeiros múltiplos de '+str(k)+' e '+str(j)+' é: ')
+print('A soma de todos os '+str(t)+' primeiros múltiplos de '+str(k)+' e '+str(j)+' é: ')
 print(a)
