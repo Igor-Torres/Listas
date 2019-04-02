@@ -11,7 +11,7 @@ print('')
 for i in range(2,n+1):#todos os números ate um N definido para acharmos todos os possíveis divisores
         if n==1:
                 break
-        elif n%i==0:#se o resto é zer, temos um divisor
+        elif n%i==0:#se o resto é zero, temos um divisor
                 f.append(i)
                 while n%i==0:
                         n=n/i#dividimos pelo divisor para eliminarmos os expoentes da fatoração
