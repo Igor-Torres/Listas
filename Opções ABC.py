@@ -1,4 +1,4 @@
-'''Esta função cria um meno de opções em loop, incluindo operações vetoriais e a opção 'sair do programa'
+'''Esta função cria um menu de opções em loop, incluindo operações vetoriais e a opção 'sair do programa'
    Aluno: Igor Torres da Costa
    DRE: 119034669
    Curso: Matemática Aplicada
